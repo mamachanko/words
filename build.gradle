@@ -55,6 +55,6 @@ dependencies {
     testCompile group: 'org.fluentlenium', name: 'fluentlenium-junit', version: fluentleniumVersion
     testCompile group: 'org.fluentlenium', name: 'fluentlenium-assertj', version: fluentleniumVersion
     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: seleniumVersion
-    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: seleniumVersion
+//    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: seleniumVersion
     testCompile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: webDriverManagerVersion
 }

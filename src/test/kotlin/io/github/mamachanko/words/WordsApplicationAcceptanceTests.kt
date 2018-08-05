@@ -13,7 +13,7 @@ class WordsApplicationAcceptanceTests : ChromeTest() {
     }
 
     @Test
-    fun `user can generate words`() {
+    fun `user can see words`() {
         assertThat(find("#words").first().text()).isEqualTo("word salad")
     }
 }

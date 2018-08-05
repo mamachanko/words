@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class WordsController(val wordsService: WordsService) {
 
     @Language("HTML")
-    @GetMapping(value = "/", produces = [(MediaType.TEXT_HTML_VALUE)])
+    @GetMapping(value = ["/"], produces = [(MediaType.TEXT_HTML_VALUE)])
     fun words() = """
         <html>
         <body>
